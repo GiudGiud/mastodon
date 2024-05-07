@@ -20,7 +20,5 @@ body:
       value: |
         # Question
   - type: textarea
-    attributes:
-      value:
     validations:
       required: true
