@@ -1,9 +1,5 @@
 title: "<Use a descriptive title here> "
 body:
-  - type: markdown
-    attributes:
-      value: |
-        # Type your question here
   - type: checkboxes
     attributes:
       label: Check these boxes if you have followed the posting rules.
