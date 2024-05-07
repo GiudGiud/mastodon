@@ -24,4 +24,3 @@ body:
     attributes:
       value: |
         # Question
-  - type: textarea
