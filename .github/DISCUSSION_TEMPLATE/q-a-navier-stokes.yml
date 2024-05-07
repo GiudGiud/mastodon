@@ -27,9 +27,9 @@ body:
     attributes:
       label: Additional information
       description: Information we usually need to discuss an issue
-      value: "Mesh size and type
-              Reynolds number
-              Discretization (finite element CG/DG, finite volume, etc)
-              Models (turbulence, porous media, etc)
-              Solve method (fully coupled, segregated, multiapps, etc)
-              Base input you started from"
+      value: "Mesh size and type:\n
+              Reynolds number:\n
+              Discretization (finite element CG/DG, finite volume, etc):\n
+              Models (turbulence, porous media, etc):\n
+              Solver method (fully coupled, segregated, multiapps, etc):\n
+              Base input you started from:"
