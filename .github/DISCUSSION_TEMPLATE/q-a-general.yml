@@ -20,7 +20,11 @@ body:
           required: true
         - label: I am not trying to get support on an old version of MOOSE
           required: true
-  - type: markdown
+  - type: textarea
+    id: question
     attributes:
-      value: |
-        # Question
+      label: Question
+      description: Please give as much context as you think we could need to find a solution
+      value: "<Your question here>"
+    validations:
+      required: true
