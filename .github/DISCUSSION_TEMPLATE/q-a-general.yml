@@ -1,5 +1,9 @@
 title: "<Use a descriptive title here> "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        # Mandatory checks
   - type: checkboxes
     attributes:
       label: Check these boxes if you have followed the posting rules.
@@ -16,3 +20,8 @@ body:
           required: true
         - label: I am not trying to get support on an old version of MOOSE
           required: true
+  - type: markdown
+    attributes:
+      value: |
+        # Question
+  - type: textarea
