@@ -19,6 +19,3 @@ body:
     attributes:
       value: |
         # Question
-  - type: textarea
-    validations:
-      required: true
