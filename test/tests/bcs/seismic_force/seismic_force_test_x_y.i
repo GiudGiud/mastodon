@@ -234,11 +234,11 @@
   [../]
   [./x_vel]
     type = ParsedFunction
-    value = 'if (t<=1.0, sin(pi*t), 0.0)'
+    expression = 'if (t<=1.0, sin(pi*t), 0.0)'
   [../]
   [./layers]
     type = ConstantFunction
-    value = 10
+    expression = 10
   [../]
 []
 
